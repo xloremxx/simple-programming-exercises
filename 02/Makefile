@@ -5,6 +5,3 @@ app: main.o
 
 main.o: main.c
 	$(CC) -o $@ -c $^
-
-clean:
-	rm *.o

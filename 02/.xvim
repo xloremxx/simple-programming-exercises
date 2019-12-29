@@ -2,6 +2,6 @@
 
 clear
 
-if make ; then 
+if make ; then
   ./app
 fi
